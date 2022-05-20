@@ -3,7 +3,11 @@ public class Survey {
     public static void main(String args[]) {
         
     Scanner response = new Scanner(System.in);
+    new txtReader reader = new txtReader();
     
+    String[] sQuestions = txtReader.getArrayOfQuestions();
+    System.out.println(sQuestions); 
+        
     String intro = "Welcome to the Mental Health Survey! We will be asking a number of questions to determine your mental state. Are you ready? (1:yes 2:no)";
     
     System.out.println(intro);

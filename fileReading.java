@@ -2,13 +2,13 @@ class fileReading
 {
   public fileReading()
   {
-       BufferedReader bReader = new BufferedReader(new FileReader("foo.in"));
+       BufferedReader bReader = new BufferedReader(new FileReader("../questions.txt"));
   }
   
   public String getArrayOfQuestions();
   {
       String[] questionArray = new String[]; 
-      String current_line = bReader.readLine();
+      String current_line = bReader.readLine(new FileReader("../questions.txt"));
       questionArray[0] = current_line;
       int i = 1;
       while(current_line != null)

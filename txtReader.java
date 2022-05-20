@@ -9,7 +9,7 @@ class txtReader
   
   public String getArrayOfQuestions();
   {
-      String[] questionArray = new String[]; 
+      String[] questionArray = new String[10]; 
       String current_line = bReader.readLine(new FileReader("../questions.txt"));
       questionArray[0] = current_line;
       int i = 1;
@@ -18,8 +18,8 @@ class txtReader
           current_line = bReader.readLine();
           if(current_line != ""){
             questionArray[i] = current_line;
-            i++
-          {
+            i++;
+          }
             
       }
       return questionArray;

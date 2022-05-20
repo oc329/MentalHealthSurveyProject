@@ -1,4 +1,6 @@
-class fileReading
+import java.io.*; // Imports all of java's input output library 
+
+class txtReader 
 {
   public fileReading()
   {

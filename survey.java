@@ -54,11 +54,11 @@ public class Survey {
             total += answers[i];
         }
         
-        if((double)total / 5 >= 4.0)
+        if((double)total / 5.0 >= 4.0)
         {
             diagnosis += "\n    severe depression";
         }
-        else if((double)total / 5 >= 3.0)
+        else if((double)total / 5.0 >= 3.0)
         {
             diagnosis += "\n    mild depression";
         }
@@ -70,11 +70,11 @@ public class Survey {
             total += answers[i];
         }
         
-        if ((double)total / 10 >= 4.0)
+        if ((double)total / 10.0 >= 4.0)
         {
             diagnosis += "\n    severe bipolar disorder";
         }
-        else if((double)total / 10 >= 3.0)
+        else if((double)total / 10.0 >= 3.0)
         {
             diagnosis += "\n    mild bipolar disorder";
         }

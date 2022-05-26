@@ -46,7 +46,7 @@ public class Survey {
         }
          
         //code to determine conditions
-        String diagnosis = "Our results are in! You may have: ";
+        String diagnosis = "Our results are in! You may have the following: ";
         
         int total = 0;
         for(int i = 0; i < 5; i++)
@@ -61,6 +61,10 @@ public class Survey {
         else if((double)total / 5.0 >= 3.0)
         {
             diagnosis += "\n    mild depression";
+        }
+        else
+        {
+            diagnosis += "\n    n/a";
         }
         total = 0;
         
@@ -77,6 +81,10 @@ public class Survey {
         else if((double)total / 10.0 >= 3.0)
         {
             diagnosis += "\n    mild bipolar disorder";
+        }
+        else
+        {
+            diagnosis += "\n    n/a";
         }
         total = 0;
         

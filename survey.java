@@ -12,16 +12,18 @@ public class Survey {
     String[] questions = new String[10];
     int[] answers = new int[10];
     
-        questions[0] = "1/10: How often do you feel sad? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[1] = "2/10: Do you feel worried and stressed? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[2] = "3/10: How often do you face a conflict? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[3] = "4/10: Do you get lack of sleep and experience unbalanced dieting? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[4] = "5/10: Do you ever think of suicide? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[5] = "6/10: Do you express yourself very emotionally? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[6] = "7/10: Do you get easily triggered? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[7] = "8/10: Have people complained or talked about how you act? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[8] = "9/10: Do you ever feel like a different person? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
-        questions[9] = "10/10: Do you ever experience mood swings? \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
+    String num_prompt = \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
+    
+        questions[0] = "1/10: How often do you feel sad? + num_prompt;
+        questions[1] = "2/10: Do you feel worried and stressed? + num_prompt;
+        questions[2] = "3/10: How often do you face a conflict? + num_prompt;
+        questions[3] = "4/10: Do you get lack of sleep and experience unbalanced dieting? + num_prompt;
+        questions[4] = "5/10: Do you ever think of suicide? + num_prompt;
+        questions[5] = "6/10: Do you express yourself very emotionally? + num_prompt;
+        questions[6] = "7/10: Do you get easily triggered? + num_prompt;
+        questions[7] = "8/10: Have people complained or talked about how you act? + num_prompt;
+        questions[8] = "9/10: Do you ever feel like a different person? + num_prompt;
+        questions[9] = "10/10: Do you ever experience mood swings? + num_prompt;
 
         if (r == 1)
         {

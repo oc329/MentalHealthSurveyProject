@@ -12,7 +12,7 @@ public class Survey {
     String[] questions = new String[10];
     int[] answers = new int[10];
     
-    String num_prompt = \n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
+    String num_prompt = "\n(1: Never 2: Rarely 3:Sometimes 4:Often 5: Always)";
     
         questions[0] = "1/10: How often do you feel sad? + num_prompt;
         questions[1] = "2/10: Do you feel worried and stressed? + num_prompt;
